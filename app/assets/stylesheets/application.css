@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
-a: hover {
+a:hover {
 	color: #007ebd;
 	background-color: #FFF;
 
@@ -26,12 +26,12 @@ body {
 div#wrapper{
 	margin: auto;
 	background: white;
-	width: : 800px;
+	width:   800px;
 	height: 2000px;
 }
 
 header {
-	display: : block;
+	display: block;
 	padding: 10px 10px 30px 10px;
 	
 }
