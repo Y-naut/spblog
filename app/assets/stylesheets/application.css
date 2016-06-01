@@ -57,4 +57,12 @@ main {
 	padding: 10px 20px 20px 20px;
 }
 
+#container {
+	<%= link_to image_tag("team.png", alt: "add quick blurb")%>
+	jkl
+
+	height: 20px;
+	width: 20x;
+}
+
 

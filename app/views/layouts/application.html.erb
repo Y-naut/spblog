@@ -12,6 +12,8 @@
 	<%= link_to image_tag("fives_logo.png", alt: "add quick blurb"),
 	{:controller => 'pages', :action => 'home'},
 	{:class =>'websiteLogo'} %>
+	<p>Your Friends, your plans, The city is at your finger tips</p>
+	<p>No more compromising</p>
 
 
 
@@ -20,6 +22,7 @@
 <nav id="horzNav">
 <%= link_to 'Home', {:controller => 'pages', :action => 'home'} %>
 <%= link_to 'About', {:controller => 'pages', :action => 'about'} %>
+<%= link_to 'Team', {:controller => 'pages', :action => 'team'} %>
 <%= link_to 'Directions', {:controller => 'pages', :action => 'directions'} %>
 <%= link_to 'Articles', {:controller => 'articles', :action => 'index'} %>
 <%= link_to 'Users', {:controller => 'users', :action => 'index'} %>
